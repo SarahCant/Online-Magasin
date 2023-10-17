@@ -1,0 +1,274 @@
+
+/* -- Style reset -- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* --- HTML5 display-role reset for older browsers --- */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+::after
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* --- End of reset --- */
+
+
+/* -- Background color to the top navigation --- */
+.theme_body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #F6F4E8;
+}
+
+.navbar {
+    background-color: #294039;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+    align-items: normal;
+  }
+
+  #omatsanke {
+    margin-left: -3rem;
+  }
+ 
+  /* --- Style links inside navigation bar --- */
+  .navbar a {
+    color: #F6F4E8;
+    padding-top: 4.6rem;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 2%;
+  }
+
+  .navbar img {
+    width: 283.5px;
+    height: 212.7px;
+    padding: 0 40px;
+    margin-top: -35%;
+    padding-top: 4px;
+   
+  }
+
+  /* --- Hover links --- */
+  .navbar a:hover {
+    opacity: 0.7;
+  }
+  /* --- End of menu --- */
+
+  /* --- Picture and text fp -- */
+  .forsidehavtorn {
+    width: 100%;
+    border-top: solid 5px #F6F4E8;
+  }
+
+.forsidebillede .inner_box {
+  position: relative;
+  background: #294039;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  margin-top: -20%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  text-align: center;
+  opacity: 0.76;
+  border-radius: 25px;
+}
+
+.forsidebillede .inner_box h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  color: #f6f4e8;
+}
+
+.forsidebillede .inner_box h5 {
+  color: #F6F4E8;
+  margin-top: 2%;
+}
+
+.forsidebillede .inner_box p {
+  color:#F6F4E8;
+  line-height: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin-top: -6%;
+  font-size: 20px;
+}
+
+.forsidebillede .inner_box button {
+  background: #F6F4E8;
+  color:#294039;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  border:none;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.forsidebillede .inner_box button:hover {
+  opacity: 0.7;
+}
+
+/* --- Guide sektion--- */
+.tapet {
+  width: 100%;
+  margin-top: 4%;
+  z-index: 1;
+  background-position: 10%;
+}
+
+.voresguides {
+  text-align: center;
+  color: #294039;
+  margin-top: -40%;
+  font-size: 30px;
+  font-weight: normal;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.line {
+  width: 40%;
+  height: 2px;
+  background-color: #294039;
+  margin-left: 30%;
+}
+
+.guides {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly ;
+  margin-top: 4%;
+  text-align: center;
+  
+}
+
+.guides h3 {
+  font-size: 23px;
+  padding-bottom: 8px;
+  letter-spacing: 3px;
+}
+
+.guides p {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  color: #294039;
+}
+
+.guides img {
+  height: 150px;
+}
+
+.guides a {
+  text-decoration: none;
+  color: #294039;
+}
+
+.guides a:hover {
+  opacity: 0.7;
+}
+
+/* --- Kontakt os --- */
+
+.kontaktos {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #294039;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: #F6F4E8 solid 5px;
+}
+
+.kontaktos h3 {
+  color: #F6F4E8;
+  font-size: 23px;
+  padding-bottom: 8px;
+  letter-spacing: 3px;
+}
+
+.kontaktos p {
+  color:#F6F4E8;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 5px;
+}
+
+.kontaktos a {
+  color: #ed9609;
+}
+
+.kontakt a:hover {
+  opacity: 0.3;
+}
+
+/* --- Footer --- */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #294039;
+  color: #F6F4E8;
+  height: 7rem;
+  padding-top: 2%;
+  letter-spacing: 3px;
+  line-height: 35px;
+}
+
+
+.some {
+  margin-right: 20px;
+}

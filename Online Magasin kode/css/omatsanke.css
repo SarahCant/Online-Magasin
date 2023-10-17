@@ -1,0 +1,304 @@
+
+/* -- Style reset -- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* --- HTML5 display-role reset for older browsers --- */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+*,
+::after
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* --- End of reset --- */
+
+/* -- Background color to the top navigation --- */
+.theme_body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #F6F4E8;
+}
+.navbar {
+    background-color: #294039;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+    align-items: normal;
+  }
+  #omatsanke {
+    margin-left: -3rem;
+  }
+ 
+  /* --- Style links inside navigation bar --- */
+  .navbar a {
+    color: #F6F4E8;
+    padding-top: 4.6rem;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 2%;
+  }
+  .navbar img {
+    width: 283.5px;
+    height: 212.7px;
+    padding: 0 40px;
+    margin-top: -35%;
+    padding-top: 4px;
+   
+  }
+  /* --- Hover links --- */
+  .navbar a:hover {
+    opacity: 0.7;
+  }
+  /* --- End of menu --- */
+  /* --- Main --- */
+  .main {
+    background-color: #F6F4E8;
+  }
+  .svampetapet {
+    width: 100%;
+    margin-top: -54%;
+  }
+  .skovbillede {
+    transform: scale(0.65);
+    border-radius: 40px;
+    margin-top: -1%;
+ }
+  /* --- Artikel del 1 -- */
+ .artikel1 {
+    position: relative;
+    top: 50%;
+    left: 18%;
+    margin-top: -128%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    text-align: left;
+    float: right;
+    background-color: #c2dc9f;
+    opacity: 0.8;
+    border-radius: 25px;
+ }
+ .artikel1 h2 {
+    color: #294039;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+ }
+ .artikel1 p {
+    color: #294039;
+    font-size: 18;
+    margin-top: 1%;
+    line-height: 25px;
+    letter-spacing: 3px;
+ }
+
+ /* --- Artikel del 2 --- */
+.artikel2 {
+    position: relative;
+    top: 50%;
+    left: 11%;
+    margin-top: -106%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    text-align: left;
+    float: right;
+    background-color: #aac883;
+    opacity: 0.8;
+    border-radius: 25px;
+ }
+ .artikel2 h3 {
+    color: #294039;
+    font-size: 18;
+    letter-spacing: 3px;
+ }
+ .artikel2 p {
+    color: #294039;
+    font-size: 18;
+    margin-top: 1%;
+    line-height: 25px;
+    letter-spacing: 3px;
+ }
+
+ /* --- Artikel del 3 --- */
+ .artikel3 {
+    position: relative;
+    top: 50%;
+    left: -6.1%;
+    margin-top: -81%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    text-align: left;
+    float: right;
+    background-color: #94ae71;
+    opacity: 0.8;
+    border-radius: 25px;
+ }
+ .artikel3 h3 {
+    color: #294039;
+    font-size: 18;
+    letter-spacing: 3px;
+ }
+ .artikel3 p {
+    color: #294039;
+    font-size: 18;
+    margin-top: 1%;
+    line-height: 25px;
+    letter-spacing: 3px;
+ }
+
+/* --- Fun fact --- */
+.funfact {
+    position: relative;
+    top: 50%;
+    left: 4%;
+    margin-top: -86%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    text-align: left;
+    float: right;
+    background-color: #239f9f;
+    opacity: 0.8;
+    border-radius: 25px;
+ }
+ .funfact h4 {
+    color:  #F6F4E8;
+    font-size: 18;
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: underline;
+ }
+ .funfact p {
+    color: #F6F4E8;
+    font-size: 18;
+    margin-top: 1%;
+    line-height: 35px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+ }
+ .mushroom {
+    position:absolute ;
+    margin-top: -88%;
+    margin-left: 80%;
+ }
+ .skovsvampe {
+    position: absolute;
+    margin-top: -66%;
+    left: 4%;
+    transform: scale(0.85);
+    border-radius: 40px;
+ }
+/* --- Artikel 4 --- */
+.artikel4 {
+    position: relative;
+    top: 50%;
+    left: 17%;
+    margin-top: -41%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    text-align: left;
+    float: right;
+    background-color: #82a258;
+    opacity: 0.8;
+    border-radius: 25px;
+ }
+ .artikel4 h3 {
+    color: #294039;
+    font-size: 18;
+    letter-spacing: 3px;
+ }
+ .artikel4 p {
+    color: #294039;
+    font-size: 18;
+    margin-top: 1%;
+    line-height: 25px;
+    letter-spacing: 3px;
+ }
+
+ /* --- Afsluttende --- */
+ .afsluttende {
+    position: relative;
+    top: 50%;
+    margin-left: 50%;
+    margin-top: -13%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    text-align: center;
+    background-color: #67a01b;
+    opacity: 0.8;
+    border-radius: 25px;
+ }
+ .afsluttende h3 {
+    color: #294039;
+    font-size: 18;
+    letter-spacing: 3px;
+ }
+ .afsluttende p {
+    color: #294039;
+    font-size: 18;
+    margin-top: 1%;
+    line-height: 25px;
+    letter-spacing: 3px;
+ }
+ .afsluttende a {
+    color: #ed9609;
+    font-weight: bold;
+ }
+  /* --- Footer --- */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #294039;
+    color: #F6F4E8;
+    height: 7rem;
+    padding-top: 2%;
+    letter-spacing: 3px;
+    line-height: 35px;
+  
+  }
+  
+  .some {
+    margin-right: 20px;
+  }

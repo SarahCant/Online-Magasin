@@ -1,0 +1,204 @@
+/* -- Style reset -- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* --- HTML5 display-role reset for older browsers --- */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+::after
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* --- End of reset --- */
+
+
+/* -- Background color to the top navigation --- */
+.theme_body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #F6F4E8;
+}
+
+.navbar {
+    background-color: #294039;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+    align-items: normal;
+  }
+
+  #omatsanke {
+    margin-left: -3rem;
+  }
+ 
+  /* --- Style links inside navigation bar --- */
+  .navbar a {
+    color: #F6F4E8;
+    padding-top: 4.6rem;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 2%;
+  }
+
+  .navbar img {
+    width: 283.5px;
+    height: 212.7px;
+    padding: 0 40px;
+    margin-top: -35%;
+    padding-top: 4px;
+   
+  }
+
+  /* --- Hover links --- */
+  .navbar a:hover {
+    opacity: 0.7;
+  }
+  /* --- End of menu --- */
+
+  /* --- Artikel --- */
+  .æbletapet {
+    width: 100%;
+  }
+
+  .overskrift {
+    position: absolute;
+    text-align: center;
+    color: #294039;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: -68%;
+    margin-left: 30%;
+    text-decoration: underline;
+  }
+
+  .artikel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #F6F4E8;
+    font-size: 18px;
+    margin-top: 1%;
+    line-height: 25px;
+    letter-spacing: 3px;
+    margin-top: -64%;
+    width: 100%;
+    opacity: 1;
+  }
+
+.artikel1, .artikel2, .artikel3 {
+    background-color: #97A97C;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+.artikel4 {
+    position: absolute;
+    display: flex;
+    color: #F6F4E8;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    margin-top: -25%;
+    margin-left: 5%;
+    background-color: #97A97C;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 35px;
+
+
+}
+
+/* --- Billeder --- */
+.billeder {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: -20%;
+    margin-left: -1%;
+}
+
+.svamp1 {
+    position: relative;
+    margin-top: -27%;
+    float: right;
+    margin-right: 20%;
+    transform: scale(1.3);
+    transform: rotate(-20deg);
+}
+
+.svamp2 {
+    position: relative;
+    margin-top: -23%;
+    float: right;
+    margin-right: 7%;
+    transform: scale(1.3);
+    transform: rotate(25deg);
+}
+
+  /* --- Footer --- */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #294039;
+    color: #F6F4E8;
+    height: 7rem;
+    padding-top: 2%;
+    letter-spacing: 3px;
+    line-height: 35px;
+  }
+  
+  
+  .some {
+    margin-right: 20px;
+  }

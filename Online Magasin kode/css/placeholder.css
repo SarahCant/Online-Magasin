@@ -1,0 +1,193 @@
+
+/* -- Style reset -- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* --- HTML5 display-role reset for older browsers --- */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+::after
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* --- End of reset --- */
+
+
+/* -- Background color to the top navigation --- */
+.theme_body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #F6F4E8;
+}
+
+.navbar {
+    background-color: #294039;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+    align-items: normal;
+  }
+
+  #omatsanke {
+    margin-left: -3rem;
+  }
+ 
+  /* --- Style links inside navigation bar --- */
+  .navbar a {
+    color: #F6F4E8;
+    padding-top: 4.6rem;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 2%;
+  }
+
+  .navbar img {
+    width: 283.5px;
+    height: 212.7px;
+    padding: 0 40px;
+    margin-top: -35%;
+    padding-top: 4px;
+   
+  }
+
+  /* --- Hover links --- */
+  .navbar a:hover {
+    opacity: 0.7;
+  }
+  /* --- End of menu --- */
+
+  /* --- Main --- */
+  .theme_body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #F6F4E8;
+}
+  .æbletapet {
+    width: 100%;
+  }
+
+.tekst {
+    position: absolute;
+    display: flex;
+    color: #F6F4E8;
+    background-color: #A6B98B;
+    opacity: 0.8;
+    border-radius: 35px;
+    text-align: center;
+    margin-top: -30%;
+    margin-left: 16%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    flex-direction: column;
+}
+
+.tekst h2 {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.tekst p {
+    font-size: 18px;
+    margin-top: 1%;
+    line-height: 35px;
+    letter-spacing: 3px;
+}
+
+.tekst a {
+    text-decoration: none;
+    color: #F6F4E8;
+}
+
+.tekst a:hover {
+    opacity: 0.7;
+}
+
+
+.ikon1 {
+    display: flex;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 25%;
+}
+
+.ikon2 {
+    display: flex;
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 76%;
+    transform: scale(0.8);
+}
+
+
+
+/* --- Footer --- */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #294039;
+    color: #F6F4E8;
+    height: 7rem;
+    padding-top: 2%;
+    letter-spacing: 3px;
+    line-height: 35px;
+  }
+  
+  
+  .some {
+    margin-right: 20px;
+  }  
+
+     /* --- Ekstra ---*/
+     html, body {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+      }
